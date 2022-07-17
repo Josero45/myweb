@@ -58,7 +58,7 @@ background-color: lightgray;}
    list-style: none;   
       }
       a{
-          font-size: 5px;
+          font-size: smaller;
         text-decoration: none;
         color: azure;
         font-weight: 200px;
