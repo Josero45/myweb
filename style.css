@@ -56,11 +56,10 @@ background-color: lightgray;}
    background-color: rgba(0, 0, 255, 0.25);
    flex-basis: 500px;
    flex-grow: 4;
-   list-style: none;  
-   flex-basis: nimax(400px, 100%);
+   list-style: none; 
       }
     .menu-body li{
-        padding:20px;
+        padding:60px;
          }
       a{
           font-size: smaller;
