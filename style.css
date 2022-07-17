@@ -34,7 +34,7 @@ background-color: lightgray;}
     display:flex;
     flex-wrap: wrap;
     justify-content: stretch; 
-    height: 100px;
+    
 }
 .menu-title{
     padding-left: 43px;
@@ -54,7 +54,8 @@ background-color: lightgray;}
    background-color: rgba(0, 0, 255, 0.25);
    flex-basis: 500px;
    flex-grow: 4;
-   list-style: none; 
+   list-style: none;
+   Flex-basis: minmax(300px, 100%); 
       }
     .menu-body li{
         padding:30px;
