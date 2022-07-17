@@ -34,6 +34,7 @@ background-color: lightgray;}
     display:flex;
     flex-wrap: wrap;
     justify-content: stretch; 
+    height: 300px;
     
 }
 .menu-title{
@@ -58,10 +59,10 @@ background-color: lightgray;}
    Flex-basis: minmax(100px, 100%); 
       }
     .menu-body li{
-        padding:30px;
+        padding:25px;
          }
       a{
-          font-size: smaller;
+          font-size: large;
         text-decoration: none;
         color: azure;
         font-weight: 200px;
