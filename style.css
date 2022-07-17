@@ -42,7 +42,7 @@ background-color: lightgray;}
     color: pink;
     text-align: center;
     align-self: center;
-    flex-basis: nimax(500px, auto);    
+    flex-basis: minmax(500px, auto);    
        
     }
 .menu-body{
@@ -55,7 +55,7 @@ background-color: lightgray;}
    flex-basis: 500px;
    flex-grow: 4;
    list-style: none;
-   Flex-basis: minmax(300px, 100%); 
+   Flex-basis: minmax(100px, 100%); 
       }
     .menu-body li{
         padding:30px;
