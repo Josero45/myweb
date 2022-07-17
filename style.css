@@ -43,7 +43,7 @@ background-color: lightgray;}
     text-align: center;
     align-self: center;
     flex-basis: minmax(500px, auto);    
-       
+    line-height: 20px;   
     }
 .menu-body{
     color: pink;
