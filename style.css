@@ -34,7 +34,8 @@ background-color: lightgray;}
     display:flex;
     flex-wrap: wrap;
     justify-content: stretch;
-    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 .menu-title{
