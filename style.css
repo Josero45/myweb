@@ -53,7 +53,6 @@ background-color: lightgray;}
    align-content: center;
    justify-content: space-evenly;
    background-color: rgba(0, 0, 255, 0.25);
-   flex-basis: 500px;
    flex-grow: 4;
    list-style: none;
    Flex-basis: minmax(100px, 100%); 
