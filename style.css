@@ -57,6 +57,9 @@ background-color: lightgray;}
    flex-grow: 4;
    list-style: none;   
       }
+    .menu-body li{
+        padding:20px;
+         }
       a{
           font-size: smaller;
         text-decoration: none;
