@@ -33,10 +33,7 @@ background-color: lightgray;}
     background-color: rgba(243, 17, 17, 0.767);
     display:flex;
     flex-wrap: wrap;
-    justify-content: stretch;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+    justify-content: stretch;   
 }
 .menu-title{
     padding-left: 43px;
