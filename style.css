@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+html{height: 100%;}
+body{height: 100%;
+background-color: lightgray;}
+.container{
+    height: 100%;
+    display: grid;
+    gap: 3px;    
+    background-color: lightgrey;
+    grid-template-columns: auto;
+    
+    grid-template-areas: "header" "nav" "main" "sidebar" "footer";
+}
+.header{
+    background-color: rgba(17, 31, 232, 0.825);
+    grid-area: header;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    
+    
+}
+.navbar{
+    grid-area: nav;
+    background-color: rgba(243, 17, 17, 0.767);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    height: 100px;
+    
+}
+.menu-title{
+    padding-left: 43px;
+    padding-right: 20px;
+    color: pink;
+    text-align: center;
+    align-self: center;
+    flex-basis: nimax(500px, auto);    
+       
+    }
+.menu-body{
+    color: pink;
+    display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: space-evenly;
+   background-color: rgba(0, 0, 255, 0.25);
+   flex-basis: 500px;
+   flex-grow: 4;
+   list-style: none;   
+      }
+      a{
+        text-decoration: none;
+        font-size:medium;
+        color: azure;
+              }
+   .content{
+    height: 1200px;
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    background-color: lightgray;
+    gap:5px;
+   }
+   .main{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:5px;
+    background-color: lightgray;
+    flex-basis: 500px;
+    flex-grow:3;
+   
+   }
+   .section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(147, 203, 235);
+    flex-basis: 500px;
+    flex-grow: 1;
+    text-align: center; 
+    align-content:center;
+    padding-left: 30px;
+    padding-right: 30px;
+      
+   }
+    .sidebar{
+    grid-area: sidebar;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(155, 164, 181);
+    flex-basis: 200px;
+    flex-grow: 2;
+    text-align: center; 
+    align-content:center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+   }
+   .footer{
+    height: 100px;
+    grid-area: footer;
+    display: flex;
+    background-color: rgb(58, 57, 57);
+    color: aliceblue;
+   }
