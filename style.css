@@ -58,8 +58,9 @@ background-color: lightgray;}
    list-style: none;   
       }
       a{
+          padding-right: 10px;
         text-decoration: none;
-        font-size:small;
+        font-size: small;
         color: azure;
               }
    .content{
